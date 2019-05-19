@@ -1,4 +1,5 @@
 function takeANumber(deliLine, name) {
+  // Add visitor to line
   deliLine.push(name);
 
   // Generate message
