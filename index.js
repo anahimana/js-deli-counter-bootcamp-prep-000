@@ -38,4 +38,4 @@ function currentLine(deliLine) {
   }
 }
 
-
+currentLine(["Bill", "Jane", "Ann"]);
