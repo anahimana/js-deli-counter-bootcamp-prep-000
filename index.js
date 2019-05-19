@@ -1,3 +1,4 @@
+
 function takeNumber(currentNum, name) {
   if(currentNum < 1){
     return `Welcome, ${name}. You are ${currentNum + 1}st in line.`;
@@ -9,3 +10,5 @@ function takeNumber(currentNum, name) {
     return `Welcome, ${name}. You are ${currentNum + 1}th in line.`;
   }
 }
+
+var currentNum = 0
