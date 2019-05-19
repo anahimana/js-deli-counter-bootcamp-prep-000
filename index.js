@@ -35,6 +35,8 @@ function currentLine(deliLine) {
       // Take care of the last comma
       if(i === deliLine.length - 1) {
         myString += `${ i + 1 }. ${deliLine[i]}, `;
+      }else {
+      myString += `${ i + 1 }. ${deliLine[i]}, `;
       }
     }
     return myString;
