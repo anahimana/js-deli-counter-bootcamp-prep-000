@@ -34,9 +34,8 @@ function currentLine(deliLine) {
     for(let i = 0; i < deliLine.length; i++) {
       // Take care of the last comma
       if(i === deliLine.length - 1) {
-        
-      }
       myString += `${ i + 1 }. ${deliLine[i]}, `;
+      }
     }
     return myString;
   }
