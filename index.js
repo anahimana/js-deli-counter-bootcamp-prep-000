@@ -1,6 +1,6 @@
 
 function takeNumber(currentLine, name) {
-  currentNum += 1;
+  currentLine += 1;
 
 
   // if(currentNum < 1){
