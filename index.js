@@ -17,7 +17,7 @@ function takeNumber(num, name) {
   }
 }
 
-var currentLine = 0;
+var katzDeliLineLen = 0;
 var katzDeliLine = [];
 
 // console.log(takeNumber(currentLine, "Alex"));
