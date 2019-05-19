@@ -13,7 +13,7 @@ function takeNumber(num, name) {
   // }
 
 }
-var currentLine = 0;
 
+var currentLine = 0;
 takeNumber(currentLine, "Alex");
 console.log(currentLine);
