@@ -11,7 +11,7 @@ function takeNumber(num, name) {
   }
   
   // Update number in line
-  currentLine = num += 1;
+  currentLine += 1;
 
 }
 
