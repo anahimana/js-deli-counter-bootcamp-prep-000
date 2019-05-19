@@ -15,6 +15,6 @@ function takeANumber(deliLine, name) {
 
 
 function nowServing(deliLine) {
-  nowServing.shift();
+  deliLine.shift();
 }
 
