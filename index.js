@@ -1,5 +1,5 @@
 function takeNumber(currentNum, name) {
-  if(currentNum){
+  if(currentNum < 1){
     
   }
   return `Welcome, ${name}. You are ${currentNum + 1} in line.`;
