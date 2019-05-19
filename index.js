@@ -27,7 +27,7 @@ function nowServing(deliLine) {
 }
 
 function currentLine(deliLine) {
-  
+  if(deliLine.length < 1)
 }
 
 
