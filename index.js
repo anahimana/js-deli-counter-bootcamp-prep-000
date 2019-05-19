@@ -10,5 +10,5 @@ function takeNumber(currentNum, name) {
   }
 }
 
-console.log(takeNumber(3, "Jake"));
+console.log(takeNumber(5, "Jake"));
 
