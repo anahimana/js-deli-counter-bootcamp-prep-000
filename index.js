@@ -14,5 +14,7 @@ function takeANumber(deliLine, name) {
 }
 
 
-function nowServing(deliLine)
+function nowServing(deliLine) {
+  return deliLine[0]
+}
 
