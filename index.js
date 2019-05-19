@@ -17,6 +17,6 @@ function takeANumber(deliLine, name) {
 function nowServing(deliLine) {
   var myVisitor = deliLine.slice();
   deliLine.shift();
-  return myVisitor[0]
+  return myVisitor[0];
 }
 
