@@ -1,6 +1,8 @@
 
 function takeNumber(currentNum, name) {
   currentNum += 1;
+
+
   // if(currentNum < 1){
   //   return `Welcome, ${name}. You are ${currentNum + 1}st in line.`;
   // }else if(currentNum < 2) {
@@ -10,6 +12,8 @@ function takeNumber(currentNum, name) {
   // }else {
   //   return `Welcome, ${name}. You are ${currentNum + 1}th in line.`;
   // }
+
+  
 }
 
 var currentNum = 0;
