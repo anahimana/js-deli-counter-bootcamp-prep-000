@@ -1,5 +1,6 @@
 function takeNumber(deliLine, name) {
   deliLine.push(name);
+  
   // Generate message
   if(num < 1){
     return `Welcome, ${name}. You are ${num + 1}st in line.`;
