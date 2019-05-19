@@ -32,7 +32,7 @@ function currentLine(deliLine) {
   }else {
     var myString = "The line is currently: ";
     for(let i = 0; i < deliLine.length; i++) {
-      // Take care of the last commas
+      // Take care of the last comma
       myString += `${ i + 1 }. ${deliLine[i]}, `;
     }
     return myString;
