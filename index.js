@@ -15,6 +15,6 @@ function takeANumber(deliLine, name) {
 
 
 function nowServing(deliLine) {
-  var visitorName = deliLine.slice();
+  var myArray = deliLine.slice();
 }
 
