@@ -3,3 +3,4 @@ function takeNumber(currentNum, name) {
 }
 
 console.log(takeNumber(1, "Jake"));
+
