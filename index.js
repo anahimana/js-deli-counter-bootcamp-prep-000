@@ -1,5 +1,5 @@
 function takeNumber(num, name) {
-    // Update number in line
+  // Update number in line
   currentLine += 1;
 
   // Generate message
