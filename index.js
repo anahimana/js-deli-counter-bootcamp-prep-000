@@ -3,7 +3,7 @@ function takeNumber(currentNum, name) {
     return `Welcome, ${name}. You are ${currentNum + 1}st in line.`;
   }else if(currentNum < 2) {
     return `Welcome, ${name}. You are ${currentNum + 1}nd in line.`;
-  } else if(currentNum === 3){
+  } else if(currentNum < 3){
     return `Welcome, ${name}. You are ${currentNum + 1}rd in line.`;
   }else {
     return `Welcome, ${name}. You are ${currentNum + 1}th in line.`;
