@@ -9,6 +9,3 @@ function takeNumber(currentNum, name) {
     return `Welcome, ${name}. You are ${currentNum + 1}th in line.`;
   }
 }
-
-console.log(takeNumber(5, "Jake"));
-
