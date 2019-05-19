@@ -9,6 +9,7 @@ function takeNumber(num, name) {
   }else {
     return `Welcome, ${name}. You are ${currentLine + 1}th in line.`;
   }
+  
   // Update number in line
   currentLine = num += 1;
 
