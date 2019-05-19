@@ -1,5 +1,5 @@
 var currentLine = 0;
-function takeNumber(currentLine, name) {
+function takeNumber(num, name) {
   currentLine += 1;
 
 
