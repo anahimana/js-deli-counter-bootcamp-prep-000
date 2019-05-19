@@ -14,3 +14,5 @@ function takeANumber(deliLine, name) {
 }
 
 
+function nowServing(deliLine)
+
