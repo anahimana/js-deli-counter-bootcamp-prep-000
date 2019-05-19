@@ -34,6 +34,8 @@ function currentLine(deliLine) {
     for(let i = 0; i <= deliLine.length; i++) {
       myString += `${ i + 1 }. ${deliLine[i]}`;
     }
+  
+    return myString;
   }
 }
 
