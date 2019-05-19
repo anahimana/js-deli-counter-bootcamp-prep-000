@@ -3,7 +3,7 @@ function takeANumber(deliLine, name) {
   deliLine.push(name);
 
   // Generate message with index number
-  // Make the meessage people friendly, later..
+  // Make the meessage people friendly, later...
   if(deliLine.length < 1){
     return `Welcome, ${name}. You are number ${deliLine.length} in line.`;
   }else if(deliLine.length < 2) {
