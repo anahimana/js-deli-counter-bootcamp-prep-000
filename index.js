@@ -30,7 +30,10 @@ function currentLine(deliLine) {
   if(deliLine.length < 1) {
     return "The line is currently empty.";
   }else {
-    for(let i = 0; i <= deliLine.length; i++)
+    var myString = ""
+    for(let i = 0; i <= deliLine.length; i++) {
+      return
+    }
   }
 }
 
