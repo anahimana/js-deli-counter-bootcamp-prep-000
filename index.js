@@ -15,7 +15,9 @@ function takeANumber(deliLine, name) {
 
 
 function nowServing(deliLine) {
-  if(deliLine.length < 1)
+  if(deliLine.length < 1) {
+    
+  }
   var myVisitor = deliLine.slice();
   deliLine.shift();
   return myVisitor[0];
