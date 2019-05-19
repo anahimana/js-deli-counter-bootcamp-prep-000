@@ -2,7 +2,7 @@ function takeANumber(deliLine, name) {
   // Add visitor to line
   deliLine.push(name);
 
-  // Generate message
+  // Generate message with index number
   if(deliLine.length < 1){
     return `Welcome, ${name}. You are number ${deliLine.length} in line.`;
   }else if(deliLine.length < 2) {
