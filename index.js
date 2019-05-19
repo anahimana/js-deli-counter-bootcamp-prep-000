@@ -14,6 +14,6 @@ function takeNumber(num, name) {
 
 }
 
-var currentLine = 0;
+var currentLine = 1;
 takeNumber(currentLine, "Alex");
 console.log(currentLine);
