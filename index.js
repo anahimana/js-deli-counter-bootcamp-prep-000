@@ -20,5 +20,5 @@ function takeNumber(num, name) {
 var katzDeliLineLen = 0;
 var katzDeliLine = [];
 
-// console.log(takeNumber(katzDeliLineLen, "Alex"));
+console.log(takeNumber(katzDeliLineLen, "Alex"));
 // console.log(currentLine);
