@@ -37,5 +37,3 @@ function currentLine(deliLine) {
     return myString;
   }
 }
-
-currentLine(["Bill", "Jane", "Ann"]);
