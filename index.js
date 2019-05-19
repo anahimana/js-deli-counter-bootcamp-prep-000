@@ -2,7 +2,7 @@ function takeNumber(num, name) {
   // Update number in line
   currentLine += 1;
   // Update people in line
-  currentLine += 1;
+  katzDeliLine;
 
   // Generate message
   if(num < 1){
