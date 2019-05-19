@@ -1,9 +1,4 @@
-function takeNumber(num, name) {
-  // Update number in line
-  katzDeliLineLen += 1;
-  
-  // Update people in line
-  katzDeliLine.push(name);
+function takeNumber(deliLine, name) {
 
   // Generate message
   if(num < 1){
@@ -17,10 +12,4 @@ function takeNumber(num, name) {
   }
 }
 
-var katzDeliLineLen = 0;
-var katzDeliLine = [];
-
-console.log(takeNumber(katzDeliLineLen, "Alex"));
-console.log(katzDeliLineLen);
-console.log(katzDeliLine);
 
