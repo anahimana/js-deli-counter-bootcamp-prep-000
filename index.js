@@ -23,3 +23,4 @@ var katzDeliLine = [];
 console.log(takeNumber(katzDeliLineLen, "Alex"));
 console.log(currentLine);
 console.log(katzDeliLine);
+
