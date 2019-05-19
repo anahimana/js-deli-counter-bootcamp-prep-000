@@ -9,7 +9,7 @@ function takeANumber(deliLine, name) {
   } else if(deliLine.length < 3){
     return `Welcome, ${name}. You are number ${deliLine.length + 1} in line.`;
   }else {
-    return `Welcome, ${name}. You are number ${deliLine.length + 1} in line.`;
+    return `Welcome, ${name}. You are number ${deliLine.length} in line.`;
   }
 }
 
