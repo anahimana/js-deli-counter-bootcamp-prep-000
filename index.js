@@ -1,4 +1,4 @@
-function takeNumber(deliLine, name) {
+function takeANumber(deliLine, name) {
   deliLine.push(name);
 
   // Generate message
