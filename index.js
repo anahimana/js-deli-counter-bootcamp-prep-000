@@ -16,4 +16,4 @@ function takeNumber(currentLine, name) {
 }
 
 var currentLine = 0;
-takeNumber()
+takeNumber(currentLine, "Alex")
