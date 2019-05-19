@@ -1,6 +1,6 @@
 var currentLine = 0;
 function takeNumber(num, name) {
-  currentLine += 1;
+  currentLine = num += 1;
 
 
   // if(currentNum < 1){
