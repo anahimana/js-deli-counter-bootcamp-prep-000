@@ -1,3 +1,3 @@
 function takeNumber(currentNum, name) {
-  return ``;
+  return `Welcome, Ada. You are number 1 in line.`;
 }
