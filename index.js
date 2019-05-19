@@ -20,7 +20,7 @@ function nowServing(deliLine) {
   } else {
     var myVisitor = deliLine.slice();
     deliLine.shift();
-    return myVisitor[0];
+    return `${myVisitor[0]}`;
   }
 }
 
