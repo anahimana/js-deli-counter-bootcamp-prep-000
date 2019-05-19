@@ -16,7 +16,7 @@ function takeANumber(deliLine, name) {
 
 function nowServing(deliLine) {
   if(deliLine.length < 1) {
-    return 
+    return "There is nobody waiting to be served!"
   }
   var myVisitor = deliLine.slice();
   deliLine.shift();
