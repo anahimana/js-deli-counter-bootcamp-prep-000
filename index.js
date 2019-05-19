@@ -1,4 +1,5 @@
 function takeNumber(num, name) {
+  // Update number in line
   currentLine = num += 1;
   if(currentLine < 1){
     return `Welcome, ${name}. You are ${currentLine + 1}st in line.`;
