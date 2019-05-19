@@ -1,6 +1,4 @@
 function takeNumber(num, name) {
-  // Update number in line
-  currentLine = num += 1;
   // Generate message
   if(currentLine < 1){
     return `Welcome, ${name}. You are ${currentLine + 1}st in line.`;
@@ -11,6 +9,8 @@ function takeNumber(num, name) {
   }else {
     return `Welcome, ${name}. You are ${currentLine + 1}th in line.`;
   }
+  // Update number in line
+  currentLine = num += 1;
 
 }
 
