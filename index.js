@@ -16,3 +16,4 @@ function takeNumber(currentNum, name) {
 }
 
 var currentLine = 0;
+takeNumber()
