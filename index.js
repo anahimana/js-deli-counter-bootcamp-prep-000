@@ -15,9 +15,6 @@ function takeANumber(deliLine, name) {
 
 
 function nowServing(deliLine) {
-  // Person being served
-  currentPerson = deliLine[0];
-  // Remove Person
-  return deliLine[0];
+  nowServing.shift();
 }
 
