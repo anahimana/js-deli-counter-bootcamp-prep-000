@@ -4,13 +4,13 @@ function takeNumber(num, name) {
 
   // Generate message
   if(currentLine < 1){
-    return `Welcome, ${name}. You are ${currentLine + 1}st in line.`;
+    return `Welcome, ${name}. You are ${num + 1}st in line.`;
   }else if(currentLine < 2) {
-    return `Welcome, ${name}. You are ${currentLine + 1}nd in line.`;
+    return `Welcome, ${name}. You are ${num + 1}nd in line.`;
   } else if(currentLine < 3){
-    return `Welcome, ${name}. You are ${currentLine + 1}rd in line.`;
+    return `Welcome, ${name}. You are ${num + 1}rd in line.`;
   }else {
-    return `Welcome, ${name}. You are ${currentLine + 1}th in line.`;
+    return `Welcome, ${name}. You are ${num + 1}th in line.`;
   }
 }
 
