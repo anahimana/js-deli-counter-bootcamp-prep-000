@@ -36,7 +36,7 @@ function currentLine(deliLine) {
       if(i === deliLine.length - 1) {
         myString += `${ i + 1 }. ${deliLine[i]}, `;
       }else {
-      myString += `${ i + 1 }. ${deliLine[i]}, `;
+        myString += `${ i + 1 }. ${deliLine[i]}, `;
       }
     }
     return myString;
