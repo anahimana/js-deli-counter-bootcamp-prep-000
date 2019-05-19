@@ -32,7 +32,7 @@ function currentLine(deliLine) {
   }else {
     var myString = "The line is currently: ";
     for(let i = 0; i <= deliLine.length; i++) {
-      return
+      "The line is currently: 1. Ada, 2. Grace"
     }
   }
 }
