@@ -17,7 +17,7 @@ function takeANumber(deliLine, name) {
 function nowServing(deliLine) {
   // Person being served
   currentPerson = deliLine[0];
-  // Remove peropn
+  // Remove person
   return deliLine[0];
 }
 
