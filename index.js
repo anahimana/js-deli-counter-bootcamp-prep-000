@@ -1,3 +1,4 @@
+var currentLine = 0;
 
 function takeNumber(currentLine, name) {
   currentLine = currentLine += 1;
@@ -15,7 +16,6 @@ function takeNumber(currentLine, name) {
 
 }
 
-var currentLine = 0;
 currentLine += 1;
 takeNumber(currentLine, "Alex");
 console.log(currentLine);
