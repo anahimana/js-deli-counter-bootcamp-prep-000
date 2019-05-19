@@ -1,6 +1,6 @@
 function takeNumber(num, name) {
   // Update number in line
-  currentLine += 1;
+  katzDeliLineLen += 1;
   
   // Update people in line
   katzDeliLine.push(name);
