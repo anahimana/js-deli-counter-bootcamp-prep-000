@@ -17,10 +17,11 @@ function takeANumber(deliLine, name) {
 function nowServing(deliLine) {
   if(deliLine.length < 1) {
     return "There is nobody waiting to be served!";
+  } else {
+    var myVisitor = deliLine.slice();
+    deliLine.shift();
+    return myVisitor[0];
   }
-  var myVisitor = deliLine.slice();
-  deliLine.shift();
-  return myVisitor[0];
 }
 
 
