@@ -11,4 +11,4 @@ function takeNumber(currentNum, name) {
   }
 }
 
-var currentNum = 0
+var currentNum = 0;
